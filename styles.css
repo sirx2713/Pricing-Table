@@ -1,0 +1,72 @@
+body{
+    background-color: #153448;
+}
+h1{
+    font-family: "SF Pro Display", serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#container > #first-pricing{
+    height: 400px;
+    width: 500px;
+    background-color: #EEF7FF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+#container > #first-pricing > .signup{
+    height: 40px;
+    width: 80px;
+    align-content: center;
+    background-color: #FC4100;
+    color: white;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+#container > #first-pricing > .cost{
+    font-size: 40px;
+}
+#container > #second-pricing{
+    height: 400px;
+    width: 500px;
+    background-color: #EEF7FF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+#container > #second-pricing > .signup{
+    height: 40px;
+    width: 80px;
+    align-content: center;
+    background-color: #FC4100;
+    color: white;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+#container > #second-pricing > .cost{
+    font-size: 40px;
+}
+#container > #third-pricing{
+    height: 400px;
+    width: 500px;
+    background-color: #EEF7FF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+#container > #third-pricing > .signup{
+    height: 40px;
+    width: 80px;
+    align-content: center;
+    background-color: #FC4100;
+    color: white;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+#container > #third-pricing > .cost{
+    font-size: 40px;
+}
